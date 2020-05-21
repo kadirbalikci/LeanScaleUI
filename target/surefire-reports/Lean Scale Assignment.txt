@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Lean Scale Assignment
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.812 s - in Lean Scale Assignment

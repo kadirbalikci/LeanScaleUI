@@ -1,0 +1,9 @@
+com\LeanScale\step_definitions\LeanScaleAssignmentStepDefs.class
+com\LeanScale\pages\HomePage.class
+com\LeanScale\step_definitions\Hooks.class
+com\LeanScale\pages\RegisterPage.class
+com\LeanScale\utilities\ConfigurationReader.class
+com\LeanScale\utilities\Driver.class
+com\LeanScale\runners\CukesRunner.class
+com\LeanScale\runners\FailedTestRunner.class
+com\LeanScale\pages\MyAccountPage.class

@@ -1,0 +1,120 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3048653500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the Lean Scale home page",
+            "match": {
+              "location": "LeanScaleAssignmentStepDefs.the_user_is_on_the_Lean_Scale_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-21T14:43:37.391Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3965642900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Register with valid data",
+        "description": "",
+        "id": "lean-scale-assignment;register-with-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 136300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 621191200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user navigates to the register page",
+            "match": {
+              "location": "LeanScaleAssignmentStepDefs.the_user_navigates_to_the_register_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1920500500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "System generates random name, lastname and email register data",
+            "match": {
+              "location": "LeanScaleAssignmentStepDefs.system_generates_random_name_lastname_and_email_register_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 253269900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User should create an account with the generated email successfully",
+            "match": {
+              "location": "LeanScaleAssignmentStepDefs.user_should_create_an_account_with_the_generated_email_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LeanScaleSmoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Lean Scale Assignment",
+    "description": "",
+    "id": "lean-scale-assignment",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LSAssignment.feature",
+    "tags": [
+      {
+        "name": "@LeanScaleSmoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

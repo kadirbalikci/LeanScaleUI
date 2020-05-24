@@ -26,7 +26,6 @@ public class MyAccountPage {
 
 
     public String getErrorMessage(){
-
         return errorMessage.getText();
     }
 }

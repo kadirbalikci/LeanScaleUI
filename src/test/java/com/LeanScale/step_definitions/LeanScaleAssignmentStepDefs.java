@@ -15,7 +15,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import static org.junit.Assert.*;
 
 public class LeanScaleAssignmentStepDefs {
@@ -24,7 +23,6 @@ public class LeanScaleAssignmentStepDefs {
     RegisterPage registerPage = new RegisterPage();
     MyAccountPage myAccountPage = new MyAccountPage();
     WebDriverWait wait;
-//    ProductPage productPage;
 
     Faker faker = new Faker();
     String fakerName = faker.name().firstName();
@@ -54,7 +52,7 @@ public class LeanScaleAssignmentStepDefs {
         registerPage.lastName.sendKeys(lastName);
         registerPage.email.sendKeys(email);
         registerPage.password.sendKeys(password);
-        registerPage.confirmPassword.sendKeys(confirmPassword);
+        registerPage.confirmPassword.sendKeys(password);
         registerPage.submitButton.click();
 
     }

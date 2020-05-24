@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3048653500,
+              "duration": 6362374400,
               "status": "passed"
             },
             "line": 5,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-05-21T14:43:37.391Z",
+        "start_timestamp": "2020-05-23T21:46:36.620Z",
         "before": [
           {
             "result": {
-              "duration": 3965642900,
+              "duration": 4149055800,
               "status": "passed"
             },
             "match": {
@@ -36,14 +36,14 @@
             }
           }
         ],
-        "line": 32,
-        "name": "Register with valid data",
+        "line": 27,
+        "name": "Add an item to the cart as a guest",
         "description": "",
-        "id": "lean-scale-assignment;register-with-valid-data",
+        "id": "lean-scale-assignment;add-an-item-to-the-cart-as-a-guest",
         "after": [
           {
             "result": {
-              "duration": 136300,
+              "duration": 675918600,
               "status": "passed"
             },
             "match": {
@@ -56,39 +56,173 @@
         "steps": [
           {
             "result": {
-              "duration": 621191200,
+              "duration": 4130917400,
               "status": "passed"
             },
-            "line": 33,
-            "name": "the user navigates to the register page",
+            "line": 28,
+            "name": "the user makes a search the product with \"MT07\" stock number",
             "match": {
-              "location": "LeanScaleAssignmentStepDefs.the_user_navigates_to_the_register_page()"
+              "arguments": [
+                {
+                  "val": "\"MT07\"",
+                  "offset": 41
+                }
+              ],
+              "location": "LeanScaleAssignmentStepDefs.the_user_makes_a_search_the_product_with_stock_number(String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1920500500,
+              "duration": 368288700,
               "status": "passed"
             },
-            "line": 34,
-            "name": "System generates random name, lastname and email register data",
+            "line": 29,
+            "name": "User configures the attributes of the product and add to the cart",
             "match": {
-              "location": "LeanScaleAssignmentStepDefs.system_generates_random_name_lastname_and_email_register_data()"
+              "location": "LeanScaleAssignmentStepDefs.user_configures_the_attributes_of_the_product_and_add_to_the_cart()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 253269900,
+              "duration": 4094621400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User should the product in the cart section",
+            "match": {
+              "location": "LeanScaleAssignmentStepDefs.user_should_the_product_in_the_cart_section()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LeanScaleSmoke"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7188007100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the Lean Scale home page",
+            "match": {
+              "location": "LeanScaleAssignmentStepDefs.the_user_is_on_the_Lean_Scale_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-23T21:46:56.412Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3282917500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Add an item to the cart as a registered user",
+        "description": "",
+        "id": "lean-scale-assignment;add-an-item-to-the-cart-as-a-registered-user",
+        "after": [
+          {
+            "result": {
+              "duration": 682683200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4303192000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User logins with the valid credentials",
+            "match": {
+              "location": "LeanScaleAssignmentStepDefs.user_logins_with_the_valid_credentials()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5570610700,
               "status": "passed"
             },
             "line": 35,
-            "name": "User should create an account with the generated email successfully",
+            "name": "the user makes a search the product with \"MT07\" stock number",
             "match": {
-              "location": "LeanScaleAssignmentStepDefs.user_should_create_an_account_with_the_generated_email_successfully()"
+              "arguments": [
+                {
+                  "val": "\"MT07\"",
+                  "offset": 41
+                }
+              ],
+              "location": "LeanScaleAssignmentStepDefs.the_user_makes_a_search_the_product_with_stock_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251420400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User configures the attributes of the product and add to the cart",
+            "match": {
+              "location": "LeanScaleAssignmentStepDefs.user_configures_the_attributes_of_the_product_and_add_to_the_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9179240700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User should the product in the cart section",
+            "match": {
+              "location": "LeanScaleAssignmentStepDefs.user_should_the_product_in_the_cart_section()"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46350500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Username should be displayed at the right top corner",
+            "match": {
+              "location": "LeanScaleAssignmentStepDefs.username_should_be_displayed_at_the_right_top_corner()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
